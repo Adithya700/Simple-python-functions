@@ -21,7 +21,7 @@ These programs demonstrate CRUD (Create, Read, Update, Delete) operations and da
 A menu-driven application for managing employee information and payroll details.
 
 #### Menu Options
-
+```text
 1. Add an employee
 2. View employees
 3. Search employee
@@ -32,6 +32,7 @@ A menu-driven application for managing employee information and payroll details.
 8. Display department-wise employee list
 9. Find highest-paid employee
 10. Display total employees, average salary, lowest salary, and highest salary
+```
 
 #### Additional Functionalities
 
@@ -53,12 +54,16 @@ A menu-driven application for maintaining student records and storing them in a 
 
 #### Menu Options
 
-1. Add a student
-2. View students
-3. Search student
-4. Update student details
-5. Delete student
-6. Save data to text file
+```text
+Manage Student Records
+
+1) Add a student
+2) View student
+3) Search student
+4) Update student details
+5) Delete student
+6) Save to file
+```
 
 #### Additional Functionalities
 
@@ -76,14 +81,14 @@ A menu-driven application for maintaining student records and storing them in a 
 A menu-driven application for maintaining student records and storing them in a JSON file.
 
 #### Menu Options
-
+```text
 1. Add a student
 2. View students
 3. Search student
 4. Update student details
 5. Delete student
 6. Save data to JSON file
-
+```
 #### Additional Functionalities
 
 * Student data management
@@ -122,7 +127,9 @@ This project was developed to practice:
 
 ---
 
-## Project Structure
+## 📂 Project Structure
+
+```text
 python functions/
 │
 ├── Employee_Management/
@@ -138,30 +145,61 @@ python functions/
 │   └── students.json
 │
 └── README.md
+```
+
+# Learning Objectives
+
+This project was developed to practice:
+
+* Function-based programming
+* Menu-driven application development
+* CRUD operations
+* Lists and Dictionaries
+* File handling in Python
+* Working with JSON files
+* Basic data processing and reporting
+
 ---
 
-## How to Run
+# How to Run
 
 Clone the repository:
 
+```bash
 git clone https://github.com/Adithya700/Simple-python-functions.git
+```
 
+Move into the project directory:
 
-Navigate to the project directory:
+```bash
 cd Simple-python-functions
-
+```
 
 Run any program:
-Employee Management:
+
+### Employee Management
+
+```bash
 python Employee_Management/employee_manage.py
-Student Management (Text File):
+```
+
+### Student Management (Text File)
+
+```bash
 python Student_Management(file)/student_recordfile.py
-Student Management (JSON File):
+```
+
+### Student Management (JSON File)
+
+```bash
 python Student_Management(json)/student_recordjson.py
+```
 
+---
 
-## Author
+# Author
 
-Adithya K.S.
+**Adithya K.S.**
 
-This project was created as a practice project to strengthen Python programming fundamentals, file handling, JSON operations, and menu-driven application development.
+This project was created to strengthen Python fundamentals, menu-driven programming, file handling, JSON operations, and CRUD-based application development.
+
