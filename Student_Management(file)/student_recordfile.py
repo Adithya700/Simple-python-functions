@@ -28,7 +28,7 @@ def showmenu():
     print("3)Search student\n");
     print("4)Update student details\n");
     print("5)Delete student\n")
-    print("6)Save to JSON file\n")
+    print("6)Save to file\n")
 def addstudent():
     s = Student(
         input("enter the studentID\n"),
