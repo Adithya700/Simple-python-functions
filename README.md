@@ -40,7 +40,12 @@ A menu-driven application for managing employee information and payroll details.
 * Department-wise employee categorization
 * JSON file handling for persistent storage
 
+### Sample Output
+
+<img width="1192" height="810" alt="image" src="https://github.com/user-attachments/assets/f6af98aa-f31e-4788-9938-cbe07e8bbf67" />
+
 ---
+
 
 ### 2. Student Record Management System (Text File)
 
@@ -87,6 +92,10 @@ A menu-driven application for maintaining student records and storing them in a 
 * Persistent storage using JSON files
 
 ---
+### Sample Output
+
+<img width="1021" height="606" alt="image" src="https://github.com/user-attachments/assets/8cf42a5b-edb9-4a01-9683-4d6e1c11927d" />
+
 
 ## Technologies Used
 
@@ -113,20 +122,22 @@ This project was developed to practice:
 
 ---
 
-## Repository Structure
-
-
-Simple-python-functions/
+## Project Structure
+python functions/
 │
-├── employee_manage.py
-├── employee.json
-├── student_recordfile.py
-├── students.text
-├── student_recordjson.py
-├── students.json
+├── Employee_Management/
+│   ├── employee_manage.py
+│   └── employee.json
+│
+├── Student_Management(file)/
+│   ├── student_recordfile.py
+│   └── students.text
+│
+├── Student_Management(json)/
+│   ├── student_recordjson.py
+│   └── students.json
+│
 └── README.md
-
-
 ---
 
 ## How to Run
@@ -141,11 +152,12 @@ cd Simple-python-functions
 
 
 Run any program:
-python employee_manage.py
-or
-python student_recordfile.py
-or
-python student_recordjson.py
+Employee Management:
+python Employee_Management/employee_manage.py
+Student Management (Text File):
+python Student_Management(file)/student_recordfile.py
+Student Management (JSON File):
+python Student_Management(json)/student_recordjson.py
 
 
 ## Author
