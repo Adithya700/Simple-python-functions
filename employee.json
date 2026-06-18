@@ -1,0 +1,14 @@
+[
+    {
+        "empID": "E101",
+        "name": "David",
+        "department": "IT",
+        "salary": 50000
+    },
+    {
+        "empID": "E102",
+        "name": "Sarah",
+        "department": "HR",
+        "salary": 45000
+    }
+]
